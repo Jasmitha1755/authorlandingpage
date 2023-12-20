@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author's Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Lucida Calligraphy', cursive;
+            background: url('C:/Users/sures/Downloads/dragon11.jpg') no-repeat center center fixed;
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #ffffff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            overflow-y: scroll;
+        }
+
+        header {
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .buttons {
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 1em;
+            background-color: #ffcc00;
+            color: #000000;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ffa500;
+        }
+
+        .images-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .image-container {
+            flex: 0 0 30%;
+            text-align: center;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 250px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .image-title {
+            font-size: 1.2em;
+        }
+
+        .about-section {
+            margin: 20px;
+            max-width: 800px;
+            text-align: left;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            color: #000000; /* Set text color to black */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>R.F. Kuang</h1>
+        <h2>#1 New York Times bestselling author</h2>
+        <p>Welcome to my world of words</p>
+        <div class="buttons">
+            <button>Books</button>
+            <button>About</button>
+            <button>Contact</button>
+        </div>
+    </header>
+
+    <div class="images-container">
+        <div class="image-container">
+            <img src="C:/Users/sures/Downloads/poppywar.jpg" alt="The Poppy War Trilogy">
+            <div class="image-title">The Poppy War Trilogy</div>
+        </div>
+        <div class="image-container">
+            <img src="C:/Users/sures/Downloads/babel.jpg" alt="Babel">
+            <div class="image-title">Babel</div>
+        </div>
+        <div class="image-container">
+            <img src="C:/Users/sures/Downloads/yellowface.jpg" alt="Yellowface">
+            <div class="image-title">Yellowface</div>
+        </div>
+    </div>
+
+    <div class="about-section">
+        <h2>About Rebecca F Kuang</h2>
+        <p>Rebecca F. Kuang is the award-winning, #1 New York Times bestselling author of the Poppy War trilogy, Babel: An Arcane History, and Yellowface. She has an MPhil in Chinese Studies from Cambridge and an MSc in Contemporary Chinese Studies from Oxford; she is now pursuing a PhD in East Asian Languages and Literatures at Yale.</p>
+    </div>
+
+</body>
+</html>
